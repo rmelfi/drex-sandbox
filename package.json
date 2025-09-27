@@ -1,0 +1,19 @@
+{
+  "name": "drex-sandbox",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "node": "npx hardhat node",
+    "deploy": "npx hardhat run --network localhost scripts/deploy.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.1",
+    "@openzeppelin/contracts": "^4.9.6",
+    "@types/node": "^20.19.17",
+    "ethers": "^6.15.0",
+    "hardhat": "^3.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
